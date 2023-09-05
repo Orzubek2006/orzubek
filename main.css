@@ -1,0 +1,1126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #27AE60; 
+} */
+nav{
+    position: absolute;
+    left: 100px;
+    width: 1495px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    min-height: 8vh;
+     /* background-color: #1d1d2c; */ 
+}
+nav .nav-links{
+    width: 900px;
+}
+
+.logo{
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    height: 3px;
+    width: 25px;
+    background-color: #000; 
+    margin: 5px;
+}
+
+
+.toggle .line-1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line-2{
+   opacity: 0;
+}
+.toggle .line-3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+.sign{
+    color: rgb(243, 236, 236);
+    width: 170px;
+    height: 60px;
+    background: #10c713;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+}
+
+.conteyner{
+    width: 100%;
+    height: auto;
+    margin:  auto;
+    position: relative;
+}
+.img12{
+    width: 100%;
+    height: 100vh;
+}
+
+.contene{
+    width: 1420px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+/* .logo{
+    width: 1000px;
+    height: 60px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+span:hover{
+    color: #27AE60;
+} */
+.photo h1{
+    width: 400px;
+    color: #fff;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+.photo p{
+    color: #fff;
+    width: 500px;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+}
+
+.img1{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+.img2{
+    width: 100%;
+    height: 800px;
+}
+
+.hac{
+    width: 1420px;
+    height: 250px;
+    position: relative;
+}
+
+.hac img{
+    width: 273px;
+    height: 90px;
+}
+
+.im{
+    width: 1420px;
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    gap: 10px;
+}
+.mat .hhh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+}
+
+
+.mat{
+    height: 1420px;
+    height: 600px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat img{
+    width: 300px;
+    height: 450px;
+}
+
+
+
+.dor {
+    position: relative;
+}
+
+.dor h1{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    color: #fff;
+}
+
+
+.kom{
+    width: 1420px;
+    height: 500px;
+    position: relative;
+}
+.kom h1{
+    position: absolute;
+    top: 100px;
+}
+.kom p{
+    position: absolute;
+    top: 200px;
+    width: 400px;
+}
+
+/* .img10{
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    left: 20px;
+} */
+
+.wall{
+  width: 700px;
+  height: 446px;
+  background: rgba(248, 248, 248, 1); 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 700px;
+}
+
+.bop{
+    width: 1415px;
+    height: 530px;
+    background:  #F8F8F8;
+    position: relative;
+}
+.bop h1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.bop .p{
+    color: #10c713;
+    width: 400px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+.bop p{
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.bop .sign{
+    color: rgb(243, 236, 236);
+    width: 170px;
+    height: 60px;
+    background: #10c713;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.inputbox{
+    width: 486px;
+    height: 375px;
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.bop .inputBox{
+    position: relative;
+}
+.bop .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.inputbox p{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+
+#neme{
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+}
+#tele{
+    margin: 10px;
+    width: 400px;
+    height: 50px; 
+}
+#koment{
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+}
+
+.green{
+    width: 350px;
+    height: 475px;
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+}
+
+
+
+.nashe{
+    width: 100%;
+    height: 90px;
+    background: #424141;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hh{
+    width: 1420px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nashe p{
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nashe .tel:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.nashe img{
+    cursor: pointer;
+}
+
+
+
+.das{
+    width: 1420px;
+    height: 700px;
+    position: relative;
+}
+.css{
+    width: 570px;
+    height: 600px;
+    padding: 20px;
+    position: absolute;
+    display: grid;
+    gap: 20px;
+    left: 10px;
+
+}
+.css p{
+    width: 570px;
+}
+.sd{
+    width: 570px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.as{
+    width: 250px;
+    height: 100px;
+    background-color: rgba(248, 248, 248, 1);
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+}
+.as p{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.as .qw{
+    color: rgba(132, 134, 146, 1);
+}
+
+
+.karta iframe{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 800px;
+}
+
+/*--------------------------------------------------------------------- File Name: main.css ---------------------------------------------------------------------*/
+
+
+ @media screen and (max-width:1100px){
+    body{
+        overflow-x: hidden;
+    }
+    .conteyner{
+        width: 1000px;
+        height: auto;
+        /* overflow: hidden; */
+    }
+    nav{
+        width: 1000px;
+        position: absolute;
+        left: 30px;
+    }
+
+    .img12{
+        width: 1100px;
+    }
+    .photo .img1{
+        position: absolute;
+        left: -100px;
+        top: 90px;
+    }
+    .photo h1{
+        position: absolute;
+        left: 30px;
+    }
+    .photo p{
+        position: absolute;
+        left: 30px;
+    }
+    .sign{
+        width: 200px;
+        position: absolute;
+        top: 500px;
+        left: 30px;
+    }
+    .nashe{
+        width: 1000px;
+    }
+    .im{
+        width: 1000px;
+        height: auto;
+    }
+    .im img{
+        width: 190px;
+        height: auto;
+    }
+
+    .mat{
+        width: 1000px;
+        height: auto;
+    }
+    .dor{
+        width: 190px;
+        height: auto;
+    }
+    .dor img{
+        width: 200px;
+        height: auto;
+    }
+    .mat .hhh{
+        position: absolute;
+        top: -50px;
+    }
+
+    .kom{
+        width: 1000px;
+    }
+    .wall{
+        width: 500px;
+        position: absolute;
+        left: 500px;
+    }
+    .bop{
+        width: 1000px;
+    }
+    .bop h1{
+        left: 5px;
+    }
+    .bop .p{
+        position: absolute;
+        left: 5px;
+    }
+    .bop p{
+        position: absolute;
+        left: 5px;
+    }
+    .bop .sign{
+        position: absolute;
+        left: 0;  
+    }
+    .green{
+        display: none;
+    }
+
+
+    .inputbox{
+        position: absolute;
+        right: 0;
+    }
+
+    .das{
+        width: 1000px;
+        position: relative;
+    }
+
+    .das .css{
+        width: 500px;
+        height: auto;
+    }
+    .css h1{
+        left: 30px;
+    }
+    .css p{
+        width: 500px;
+        height: auto;
+    }
+
+    .sd{
+        width: 500px;
+        height: auto;
+    }
+
+     .karta{
+        width: 200px;
+        height: auto;
+        position: absolute;
+        left: -250px;
+    }
+
+    .karta iframe{
+        width: 440px;
+    }
+
+    .nashe{
+        margin-left: -50px;
+        width: 1100px;
+
+    }
+
+    .hh{
+        width: 1050px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:992px){
+
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 650px;
+    }
+    nav img{
+        width: 100px;
+    }
+
+    .nav-links li a{
+        color: #000;
+        font-size: 10px;
+    }
+    .img12{
+        width: 700px;
+        height: auto;
+    }
+    .photo p{
+        position: absolute;
+        top: 185px;
+        left: 30px;
+        width: 300px;
+    }
+    .photo h1{
+        width: 360px;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+
+    .photo button{
+        position: absolute;
+        top: 300px;
+        left: 20px;
+        width: 200px;
+        height: 60px;
+    }
+
+    .hac{
+        width: 700px;
+    }
+    .im{
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: absolute;
+        left: 50px;
+    }
+    .im img{
+        width: 300px;   
+    }
+
+    .mat{
+        width: 600px;
+        margin-top: 180px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .mat .dor{
+        width: 300px;
+    }
+    .dor img{
+         width: 300px;
+         margin-left: 20px;
+    }
+    .hhh{
+        position: absolute;
+        left: 50px;
+    }
+
+    .kom{
+        width: 600px;
+    }
+    .kom h1{
+       position: absolute;
+       top: 100px;
+       left: 60px;
+    }
+    .kom p{
+        margin-left: 60px;
+    }
+    .wall{
+        width: 600px;
+        position: absolute;
+        top: 340px;
+        left: 40px;
+    }
+    .bop{
+        width: 700px;
+        height: 700px;
+        margin-top: 290px;
+    }
+
+    .bop h1{
+        position: absolute;
+        left: 50px;
+    }
+    .bop .p{
+        position: absolute;
+        left: 50px;
+    }
+    .bop p{
+        position: absolute;
+        left: 50px;
+    }
+
+    .bop .sign{
+        position: absolute;left: 50px;
+    }
+
+    .inputbox{
+        position: absolute;
+        top: 330px;
+        left: 50px;
+    }
+
+    .das{
+        width: 700px;
+        height: 1000px;
+    }
+
+    .karta iframe{
+        width: 600px;
+        height: 500px;
+        position: absolute;
+        top: 500px;
+        left: 280px;
+    }
+
+    .nashe{
+        width: 700px;
+    }
+
+    .hh{
+        width: 650px;
+    }
+    .hh p{
+        font-size: 10px;
+    }
+    .hh img{
+        width: 100px;
+    }
+
+
+
+
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:478px){
+
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 500px;
+        position: absolute;
+        left: 30px;
+    }
+
+    nav img{
+        width: 200px;
+    }
+    .nav-links{
+        width: 50px;
+        height: 402px;
+        position: absolute;
+        right: -100px;
+        top: 15vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 10;
+    }
+
+
+    .nav-links li{
+        font-size: 0px;
+         /* opacity: 0; */ 
+    }
+    .nav-links li a{
+        color: #000;
+        font-size: 20px;
+    }
+    .burger{
+        margin-top: 20px;
+        margin-right: 150px;
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+    /* javaScript styles */
+    .nav-active{
+    transform: translate(0);
+    }
+
+
+
+
+
+
+    .conteyner{
+        width: 500px;
+        transition: 0,5s ease-in;
+    }
+     .img12{
+
+        width: 400px;;
+        height: 500px;
+    }
+
+
+    .photo p{
+        position: absolute;
+        top: 285px;
+        left: 30px;
+        width: 300px;
+    }
+    .photo h1{
+        width: 360px;
+        position: absolute;
+        top: 200px;
+        left: 20px;
+    }
+
+    .photo button{
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        width: 300px;
+        height: 80px;
+    }
+    .sign{
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .contene{
+        width: 380px;
+
+    }
+    .contene .im{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .hac:nth-child(1){
+        margin-top: 0;
+    }
+
+
+     .im:nth-of-type(1){
+        margin-top: 0;
+    } 
+    .im img{
+        margin-left: -75px;
+        width: 300px;
+        height: auto;
+    }
+    .hac h1{
+        margin-left: -40px;
+        font-size: 30px;
+    }
+
+    .mat .hhh {
+        position: absolute;
+        left: -30px;
+        top: -120px;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .mat:nth-of-type(2){
+        position: absolute;
+        top: 600px;
+    }
+    .mat{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .mat {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dor img{
+        width: 300px;
+        height: auto;
+        margin-left: -35px;
+    }
+    .dor h1{
+        margin-left: -35px;
+        width: 200px;
+        font-size: 40px;
+    } 
+    /* .mat h1{
+        margin-left: 900px;
+        font-size: 90px;
+    } */
+
+
+
+    .kom:nth-of-type(3){
+        position: absolute;
+        top: 2610px;
+
+    }
+    /* .wall:nth-of-type(1){
+        margin-top: 500px;
+        margin-left: -600px;
+    } */
+    .kom{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .kom h1{
+        width: 400px;
+        font-size: 25px;
+        position: absolute;
+        left: -30px;
+    }
+    .kom p{
+        width: 300px;
+        position: absolute;
+        top: 150px;
+        left: -80px;
+    }
+
+    .wall{
+        position: absolute;
+        top: 350px;
+        left: -30px;
+        width: 300px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .wall img{
+        top: 0;
+        margin-left: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    .bop {
+        width: 450px;
+        height: auto;
+        background: rgba(248, 248, 248, 0.724);
+        position: absolute;
+        top: 3000px;
+    }
+    .bop h1{
+        position: absolute;
+        left: -20px;
+    }
+    .bop .p{
+        width: 300px;
+        position: absolute;
+        left: -20px;
+    }
+    .bop p{
+        width: 300px;
+        position: absolute;
+        left: -20px;
+    }
+    .bop .sign{
+        display: none;
+        width: 200px;
+        height: auto;
+        font-size: 25px;
+        position: absolute;
+        top: 280px;
+        left: -20px;
+    }
+
+
+    .inputbox{
+        width: 350px;
+        position: absolute;
+        left: -60px;
+    }
+    .inputbox #neme{
+        width: 300px;
+    }
+    .inputbox #tele{
+        width: 300px;
+    }
+    .inputbox #koment{
+        width: 300px;
+    }
+    .inputbox p{
+        left: 40px;
+        width: 300px;
+    }
+
+
+
+    
+
+
+    .das{
+        width: 450px;
+        height: auto;
+        position: relative;
+    }
+    .das .css{
+        position: absolute;
+        top: 3700px;
+    }
+    .css h1{
+        margin-left: -60px;
+        font-size: 50px;
+    }
+    .css .as{
+        width: 300px;
+        margin-left: -70px;
+    }
+    .css .as p{
+        width: 350px;
+        height: auto;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .css p{
+        width: 300px;
+        height: auto;
+        margin-left: -70px;
+        font-size: 20px;
+    }
+
+    .sd{
+        width: 450px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 20px;
+    }
+
+    .das .karta{
+        width: 450px;
+        height: auto;
+        position: relative;
+    }
+
+    .karta iframe{
+        width: 340px;
+        height: 500px;
+        position: absolute;
+        top: 4520px;
+        left: 200px;
+
+    }
+
+
+
+
+    .nashe:nth-of-type(2){
+       margin-top: 5050px;
+    }
+
+.nashe{
+    width: 460px;
+    height: 165px;
+    position: relative;
+}
+
+.hh{
+    width: 460px;
+    height: 165px;
+    position: relative;
+}
+.hh img{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+.hh .img21{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 210px;
+
+}
+.hh .p1{
+    width: 300px;
+    height: auto;
+    font-size: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.hh .p2{
+    width: 30px;
+    height: auto;
+    margin-left: 50px;
+}
+.hh .p3{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 130px;
+}
+.hh .tel{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 190px;
+}
+
+
+
+
+} 

@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.contayner{
+    width: 1420px;
+    height: auto;
+    margin:  auto;
+    position: relative;
+}
+
+/* .logo{
+    width: 900px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+span:hover{
+    color: #27AE60;
+} */
+
+.menu{
+    width: 1420px;
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rr{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rr span{
+    cursor: pointer;
+}
+.pest{
+    width: 1420px;
+    height: 480px;
+    position: relative;
+}
+
+.img1{
+    width: 580px;
+    height: 480px;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 620px;
+}
+p{
+    width: 798px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 620px;
+}
+ .img2{
+    position: absolute;
+    top: 180px;
+    left: 620px;
+
+}
+.img3{
+    position: absolute;
+    top: 100px;
+    left: 620px;
+}
+
+
+
+
+
+
+.pest_one{
+    width: 1420px;
+    height: 480px;
+    position: relative;
+}
+.pest_one h1{
+    position: absolute;
+    top: 0;
+    left: 620px;
+}
+.pest_there{
+    width: 1420px;
+    height: 480px;
+    position: relative;
+}
+.tt{
+    width: 1420px;
+    height: auto;
+    display: grid;
+    gap: 30px;
+}
+.bop{
+    width: 1415px;
+    height: 500px;
+    background:  #F8F8F8;
+    position: relative;
+}
+
+.bop h1{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+
+}
+.bop p{
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+
+}
+h4{
+    width: 250px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background: rgba(39, 174, 96, 1);
+    border-radius: 5px;
+    border: none;
+    color: #F8F8F8;
+    position: absolute;
+    top: 330px;
+    left: 50px;
+}
+.inputbox{
+    width: 486px;
+    height: 375px;
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.bop .inputBox{
+    position: relative;
+}
+.bop .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+     margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.inputbox p{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+
+#neme{
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+}
+#tele{
+    margin: 10px;
+    width: 400px;
+    height: 50px; 
+}
+#koment{
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+}
+
+.green{
+    width: 350px;
+    height: 430px;
+    position: absolute;
+    left: 880px;
+    top: 70px;  
+}
+
+.nashe{
+    width: 100%;
+    height: 90px;
+    background: #424141;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hh{
+    width: 1420px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nashe span{
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nashe span:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.nashe img{
+    cursor: pointer; 
+}
+
+
+
+
+nav{
+    margin-left: 260px;
+    width: 1420px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    min-height: 8vh;
+     /* background-color: #1d1d2c; */ 
+}
+nav .nav-links{
+    width: 900px;
+}
+
+.logo{
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    height: 3px;
+    width: 25px;
+    background-color: #000; 
+    margin: 5px;
+}
+
+
+.toggle .line-1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line-2{
+   opacity: 0;
+}
+.toggle .line-3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+ @media screen  and (max-width:1100px){
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 1000px;
+        position: absolute;
+        top: 0;
+        left: -170px;
+    }
+
+
+    .contayner{
+        width: 1050px;
+    }
+    .menu{
+        width: 800px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .tt{
+        width: 1100px;
+    }
+
+    .pest p{
+        position: absolute;
+        top: 30px;
+        width: 450px;
+    }
+    .pest .img2{
+        width: 550px;
+        position: absolute;
+        top: 220px;
+    }
+
+    .pest_one p{
+        position: absolute;
+        top: 40px;
+        width: 450px;
+    }
+    .pest_one .img2{
+        width: 450px;
+        position: absolute;
+        top: 250px;
+    }
+
+    .pest_there h1{
+        position: absolute;
+        top: 0;
+        width: 450px;
+    }
+    .pest_there .img3{
+        width: 430px;
+        position: absolute;
+        top: 50px;
+    }
+    .inputbox{
+        position: absolute;
+        left: 500px;
+    }
+    .green{
+        position: absolute;
+        left: 550px;
+    }
+    .nashe{
+        width: 1100px;
+    }
+    .nashe img{
+        width: 150px;
+
+    }
+
+    .hh span{
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+} 
+@media screen and (max-width:992px){
+    nav{
+        width: 650px;
+        position: absolute;
+        left: -250px; 
+    }
+    nav img{
+        width: 100px;
+    }
+    .nav-links li a{
+        font-size: 10px;
+    }
+    .menu{
+        width: 500px;
+    }
+
+    .tt{
+        width: 800px;
+    }
+    .pest{
+        width: 900px;
+    }
+    .pest .img1{
+        width: 300px;
+        height: auto;
+    }
+
+    .pest h1{
+        position: absolute;
+        left: 310px;
+    }
+    .pest p{
+        width: 350px;
+        position: absolute;
+        top: 50px;
+        left: 310px;
+    }
+    .pest .img2{
+        width: 450px;
+        position: absolute;
+        top: 270px;
+        left: 310px;
+    }
+    .pest_one{
+        width: 900px;
+    }
+    .pest_one .img1{
+        width: 300px;
+        height: auto;
+    }
+
+    .pest_one h1{
+        position: absolute;
+        left: 310px;
+    }
+    .pest_one p{
+        width: 350px;
+        position: absolute;
+        top: 50px;
+        left: 310px;
+    }
+    .pest_one .img2{
+        width: 370px;
+        position: absolute;
+        top: 330px;
+        left: 310px;
+    }
+
+    .pest_there{
+        width: 900px;
+    }
+    .pest_there .img1{
+        width: 300px;
+        height: auto;
+    }
+
+    .pest_there h1{
+        position: absolute;
+        left: 310px;
+    }
+    .pest_there .img3{
+        width: 350px;
+        position: absolute;
+        top: 50px;
+        left: 310px;
+    }
+
+    .bop{
+        width: 900px;
+    }
+    .bop h1{
+        font-size: 20px;
+        position: absolute;
+        left: 5px;
+    }
+
+    .bop h4{
+        font-size: 15px;
+        position: absolute;
+        left: 5px;
+    }
+    .bop p{
+        width: 200px;
+        font-size: 15px;
+        position: absolute;
+        left: 5px;
+    }
+    .bop button{
+        font-size: 15px;
+        position: absolute;
+        left: 5px;
+    }
+
+    .inputbox{
+        width: 400px;
+        position: absolute;
+        left: 280px;
+    }
+
+    #neme{
+        width: 350px;
+    }
+    #tele{
+        width: 350px;
+    }
+    #koment{
+        width: 350px;
+    }
+    .inputbox .jek{
+        width: 300px;
+    }
+
+    .green{
+        width: 250px;
+        position: absolute;
+        left: 360px;
+    }
+
+    .nashe .hh{
+        width: 650px;
+        position: absolute;
+        left: 20px;
+    
+    }
+    .hh img{
+        width: 120px;
+
+
+    }
+
+
+
+} 
+
+
+
+
+
+
+
+
+@media screen  and (max-width:478px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+
+    .rr span{
+      display: none; 
+    }
+    nav{
+        margin-left: 100px;
+        width: 500px;
+        z-index: 3;
+    }
+
+    nav img{
+        position: absolute;
+        left: 170px;
+        width: 150px;
+        height: 100px;
+    }
+    .nav-links{
+        position: absolute;
+        right: -250px;
+        width: 50px;
+        height: 602px;
+
+        top: 15vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 10;
+    }
+
+
+    .nav-links li{
+        font-size: 0px;
+        /* opacity: 0; */
+    }
+    .nav-links li a{
+        color: #000;
+        font-size: 20px;
+    }
+    .burger{
+        position: absolute;
+        top: 20px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+    /* javaScript styles */
+    .nav-active{
+    transform: translate(0);
+    }
+
+
+    .contayner{
+        width: 500px;
+        padding: 0 ;
+        transition: 0,5s ease-in;
+    }
+    .menu{
+        width: 600px;
+
+    }
+    .menu .rr{
+        display: flex;
+        justify-content: space-around;
+    }
+    .rr{
+        font-size: 20px;
+        width: 600px;
+        padding: 10px;
+       color: #000;
+       margin-left: 200px;
+    }
+    .pest{
+        width: 600px;
+        height: auto;
+        position: relative;
+    }
+    .pest .img1{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        left: 5px;
+    }
+    .pest h1{
+        position: absolute;
+        left: 0;
+        top: 570px;
+        font-size: 50px;
+    }
+    .pest p{
+        width: 320px;
+        position: absolute;
+        left: 5px;
+        top: 650px;
+        font-size: 20px;
+    }
+    .pest .img2{
+        width: 480px;
+        position: absolute;
+        left: 5px;
+        top: 1080px;
+    }
+
+    .pest_one:nth-of-type(2) {
+        margin-top: 1200px;
+    }   
+    .pest_one{
+        width: 500px;
+        height: auto;
+        position: relative;
+    }
+    .pest_one .img1{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        left: 5px;
+    }
+    .pest_one h1{
+        position: absolute;
+        left: 5px;
+        top: 570px;
+        font-size: 50px;
+    }
+    .pest_one p{
+        width: 350px;
+        position: absolute;
+        left: 5px;
+        top: 650px;
+        font-size: 17px;
+    }
+    .pest_one .img2{
+        width: 350px;
+        position: absolute;
+        left: 5px;
+        top: 970px;
+    }
+
+    .pest_there:nth-of-type(3){
+       margin-top: 1100px;
+    }
+    
+    .pest_there{
+        width: 400px;
+        height: auto;
+        position: relative;
+    }
+    .pest_there .img1{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        left: 5px;
+    }
+    .pest_there h1{
+        position: absolute;
+        left: 5px;
+        top: 570px;
+        font-size: 50px;
+    }
+    .pest_there .img3{
+        width: 350px;
+        position: absolute;
+        left: 5px;
+        top: 720px;
+    }
+
+
+
+    .bop{
+        width: 480px;
+        height: auto;
+        position: relative;
+    }
+    .bop h1{
+        position: absolute;
+        top: 800px;
+        left: 5px;
+        font-size: 50px;
+    }
+    .bop h4{
+        position: absolute;
+        top: 950px;
+        left: 5px;
+        font-size: 30px;
+    }
+    .bop p{
+        position: absolute;
+        top: 1160px;
+        left: 5px;
+        font-size: 30px;
+    }
+    .bop button{
+        width: 300px;
+        height: 80px;
+        position: absolute;
+        top: 1370px;
+        left: 5px;
+    }
+
+    .inputbox{
+        width: 350px;
+        position: absolute;
+        left: 10px;
+        top: 1450px;
+    }
+    .inputbox #neme{
+        width: 300px;
+    }
+    .inputbox #tele{
+        width: 300px;
+    }
+    .inputbox #koment{
+        width: 300px;
+    }
+    .inputbox .jek{
+        width: 300px;
+        font-size: 15px;
+        position: absolute;
+        top: 300px;
+    }
+
+    .green{
+        display: none;
+    }
+
+    
+
+    .bop .img4{
+        width: 0;
+        height: 0;
+    }
+
+
+    .nashe{
+        width: 420px;
+        height: 300px;
+        position: relative;
+    }
+    .nashe {
+        position: absolute;
+        top: 4450px;
+        left: 0;
+    }
+    .nashe img{
+        width: 140px;
+        height: auto;
+
+    }
+    .nashe .hh{
+        width: 370px;
+        height: auto;
+        margin-left: -20px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .hh span{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+
+    }
+
+
+}
